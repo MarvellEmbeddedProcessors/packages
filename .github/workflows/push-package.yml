@@ -1,0 +1,144 @@
+name: Commit and deploy package
+
+on:
+  repository_dispatch:
+    types: [dispatch-event]
+permissions:
+  id-token: write
+  contents: write
+  actions: write
+
+jobs:
+  deploy-debian-packages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+          lfs: true
+      - name: Set Package version
+        id: version
+        run: |
+          echo 'TAG=${{ github.event.client_payload.tag }}' >> $GITHUB_OUTPUT
+          echo 'PACKAGE=${{ github.event.client_payload.package }}' >> $GITHUB_OUTPUT
+          echo 'HAS_DPDK=${{ github.event.client_payload.has_dpdk }}' >> $GITHUB_OUTPUT
+          echo 'DPDK_TAG=${{ github.event.client_payload.dpdk_tag }}' >> $GITHUB_OUTPUT
+          echo 'DISTRO=${{ github.event.client_payload.distro }}' >> $GITHUB_OUTPUT
+          echo 'DEVEL=${{ github.event.client_payload.devel }}' >> $GITHUB_OUTPUT
+          echo 'PLATFORM=${{ github.event.client_payload.platform }}' >> $GITHUB_OUTPUT
+      - name: Check variables
+        uses: action-pack/cancel@v1
+        if: ${{ steps.version.outputs.PLATFORM == '' || steps.version.outputs.DISTRO == '' || steps.version.outputs.PACKAGE == '' || steps.version.outputs.TAG == '' || steps.version.outputs.DEVEL == '' }}
+      - name: Wait for job to be cancelled
+        if: ${{ steps.version.outputs.PLATFORM == '' || steps.version.outputs.DISTRO == '' || steps.version.outputs.PACKAGE == '' || steps.version.outputs.TAG == '' || steps.version.outputs.DEVEL == '' }}
+        shell: bash
+        run: while true; do echo "Waiting for job to be cancelled"; sleep 5; done
+      - name: Import GPG Key
+        uses: crazy-max/ghaction-import-gpg@v6.1.0
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+      - name: Download DPDK package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.HAS_DPDK == 'true' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/marvell-dpdk"
+          tag: "${{ steps.version.outputs.DPDK_TAG }}"
+          fileName: "*.deb"
+      - name: Download DAO package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'dao' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OVS package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'ovs' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download VPP package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'vpp' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/vpp"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download NGINX package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'nginx' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OPENSSL package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'openssl' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OCTEON EP package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'octeon-ep' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/pcie_ep_octeon_target"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OCTEON CPT firmware package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'cpt-firmware' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/marvell-firmware"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OCTEON ML firmware package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'ml-firmware' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/marvell-firmware"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OPENSSL ENGINE package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'engine' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Commit packages
+        env:
+          EMAIL: github-bot-accelerator@marvell.com
+        run: |
+          ls -alh
+          git config --global user.name 'Github-accelerator-bot'
+          git config --global user.email "github-bot-accelerator@marvell.com"
+          DISTRO=${{ steps.version.outputs.DISTRO }}
+          [[ "${{ steps.version.outputs.DEVEL }}" == "false" ]] && DEVEL= || DEVEL=-devel
+          [[ "${{ steps.version.outputs.DEVEL }}" == "false" ]] && RELEASE_TYPE=release || RELEASE_TYPE=devel
+          FOLDER=${PWD}/${DISTRO}-${{ steps.version.outputs.PLATFORM }}${DEVEL}
+          mkdir -p ${FOLDER}
+          mv -f *.deb ${FOLDER}/.
+          cd ${FOLDER}
+          gpg --armor --export "${EMAIL}" > dao.gpg
+          dpkg-scanpackages --multiversion . > Packages
+          gzip -k -f Packages
+          apt-ftparchive release . > Release
+          gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+          gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+          DISTRO_PATH=`echo ${DISTRO} | awk -F'-' '{print$1"/v"$2}' | awk -F'.' '{print$1$2}'`
+          echo "deb [signed-by=/etc/apt/keyrings/dao.gpg]  https://www.marvell.com/public/repo/octeon/dao/${{ steps.version.outputs.PLATFORM }}/${DISTRO_PATH}/${RELEASE_TYPE} ./" > dao.list
+          cd -
+          git add .
+          git log -1 --pretty=%B > msg
+          sed -i "/^Signed-off-by:/d" msg
+          sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}' msg
+          echo "`date "+%F %H:%M"` : "'${{ steps.version.outputs.PACKAGE }} : ${{ steps.version.outputs.TAG }} : ${{ steps.version.output.PLATFORM }} : ${{ steps.version.output.DEVEL }}' >> msg
+          cat msg
+          git commit --amend -s --message "$(cat msg)"
+          git push -f
