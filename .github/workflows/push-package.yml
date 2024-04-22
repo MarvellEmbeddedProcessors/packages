@@ -1,0 +1,86 @@
+name: Commit and deploy package
+
+on:
+  repository_dispatch:
+    types: [dispatch-event]
+permissions:
+  id-token: write
+  contents: write
+
+jobs:
+  deploy-debian-packages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+          lfs: true
+      - name: Set Package version
+        id: version
+        run: |
+          echo 'TAG=${{ github.event.client_payload.tag }}' >> $GITHUB_OUTPUT
+          echo 'PACKAGE=${{ github.event.client_payload.package }}' >> $GITHUB_OUTPUT
+          echo 'HAS_DPDK=${{ github.event.client_payload.has_dpdk }}' >> $GITHUB_OUTPUT
+          echo 'DPDK_TAG=${{ github.event.client_payload.dpdk_tag }}' >> $GITHUB_OUTPUT
+      - name: Import GPG Key
+        uses: crazy-max/ghaction-import-gpg@v6.1.0
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+      - name: Download DPDK package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.HAS_DPDK == 'true' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/marvell-dpdk"
+          tag: "${{ steps.version.outputs.DPDK_TAG }}"
+          fileName: "*.deb"
+      - name: Download DAO package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'dao' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dpu-accelerator-offload"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OVS package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'ovs' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/marvell-ovs"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download VPP package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'vpp' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/vpp"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Commit packages
+        env:
+          EMAIL: github-bot-accelerator@marvell.com
+        run: |
+          ls -alh
+          git config --global user.name 'Github-accelerator-bot'
+          git config --global user.email "github-bot-accelerator@marvell.com"
+          mkdir -p ${PWD}/ubuntu-22.04
+          mv *.deb ${PWD}/ubuntu-22.04/.
+          cd ${PWD}/ubuntu-22.04
+          gpg --armor --export "${EMAIL}" > dao.gpg
+          dpkg-scanpackages --multiversion . > Packages
+          gzip -k -f Packages
+          apt-ftparchive release . > Release
+          gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+          gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+          echo "deb [signed-by=/etc/apt/keyrings/dao.gpg] https://marvellembeddedprocessors.github.io/packages/ubuntu ./" > dao.list
+          cd -
+          git add .
+          git log -1 --pretty=%B > msg
+          sed -i "/^Signed-off-by:/d" msg
+          sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}' msg
+          echo "`date "+%F %H:%M"` : "'${{ steps.version.outputs.PACKAGE }} : ${{ steps.version.outputs.TAG }}' >> msg
+          cat msg
+          git commit --amend -s --message "$(cat msg)"
+          git push -f
