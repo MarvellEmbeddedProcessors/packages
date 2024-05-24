@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Wed, 12 Feb 2025 11:39:23 +0000
+MD5Sum:
+ a5f4c38926f85c543d4cde8751f2640a             4519 Packages
+ 6eea3b9fac52c47a1e1b542b3e5fdcb3             1526 Packages.gz
+ bc20b43b3ca311b6b319d1fadef440b4               38 Release
+SHA1:
+ 1865e39733b6c9b60d52d092b11e7451a45c657a             4519 Packages
+ f22503e0e17e7f095f40688bf91ee0eaca037f28             1526 Packages.gz
+ 3547463cb886c43c41ee7e69a9db425a95088399               38 Release
+SHA256:
+ 4aeccabafb30b1ccafb4fefe4ec7614d80b0b0318a0fd95dd6387f2bbc220afa             4519 Packages
+ 8102f3d3b0c76eec4baf19343a0cc152c5c7ee290ff65f78beccac1858dfb7da             1526 Packages.gz
+ 3fbf012abf442e6d0cc239dad0ecb393f266a353ef7bd1b5cecc589424defc96               38 Release
+SHA512:
+ 5a71d0ba38b0eac3779417c0713f41c569892d9092fbac43a1fac1bfea01fd4d9b3fbf67042e960ce5141c5e489dcf8e251c9a260377082325b39cc3d74d47f1             4519 Packages
+ a0a9b95d3be8f16d2663c7965760de09d5fd97a5f1ba95ab4f257d8ca24a1394beee3b2e1240fd65d4ae900aefc9726ad8789559cf1bac2d4f487bb2e021fbf7             1526 Packages.gz
+ 7d8af43c041a90b3d6ca3731884e40f470ba5d121b8365b9d5b97b1de350443d54579da3c1c7ede01c1a48fcede4acd81b31955f86fe117d792dd342244521c5               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmesiGwjHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE3YXRAAnMuUM5Ly
+hNoo/JLvYRtxJDNJqaMG7Wmpv5sOAraSEWbH48amZ6PzoEZiAExvELg3R+T7uVvZ
+7sQdc30IdMhTa6IqI0O/JCEyo2dTt2iuycW3ZjY3y5L/F6o8BpQO9QIGcJ340pJU
+kddNikbjayJSNT/e09B7/LkMp8H3TzEX69u9KCqo+A12/c8U6ewCbJLpxaOTTq9V
+A3vP6lPrXg+MABgM1lIWQLfN0vLgroGhG1vLi+DTHWhAxL2yCSBotJ2fl4CBQ1X7
+30DnqYe+rXWnYv86t4RI77t6gyMGHIu6e9eHWjef5OjP8RwxEM2zm1S+kPbaxUjL
+kaCgGZTC+o8DKxij2/lvY25OQPANb/Cyl1UyIZCHr5prBjEKKq/fOmWz5dZDXy/t
+IntozGeXBAcilql+z2GG4mttScPA3EJPTZjuXKnuT9yfJ40VlxfKaU8bie/GRQ+s
+4EkBbFE1J7MDCt5jEC5XD7r3m2gfU8cOa0nGzVWukdmiStFC88NTIYGg7W+BQF69
+GAxa+n1II9LSz2rSzVQNf+T1gzpX20EqsCiwRSm+DrRu3h1rdzlspEckBSU69K4O
+AGi6vz3bw7a1vpI4GQeT6Q60A4q04iOP8H/VBkpBi2lP6H9DNy5Nhmt4bAcn2oYH
+dLcjX3fff315D/ARHO76+r6xW7o/wNBaNJo=
+=rWGy
+-----END PGP SIGNATURE-----
