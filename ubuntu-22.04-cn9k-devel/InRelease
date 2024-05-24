@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Thu, 19 Dec 2024 06:47:08 +0000
+MD5Sum:
+ 8d03a5addd463a881f1534588305960c             3620 Packages
+ c96bc3d382f950c2cbe13554eeb7cab5             1177 Packages.gz
+ 2388051bfb7c54699f931bf1122974cb               38 Release
+SHA1:
+ ea3471b8eed57eacda52f6be1c3ba8d3b3ce2352             3620 Packages
+ 8dd3385da8b65793b527826da0d4763a717963f8             1177 Packages.gz
+ 363f7789aeb51f9d5ffdfdd0418ee52a6cb9fe28               38 Release
+SHA256:
+ ec9a9adb290b284ff68be1192e8df5f964eadf80c9465ba24095f6c1ca4153e9             3620 Packages
+ 30e51c57b9d07932a61c5856cd21c6fe7fd8def93b307982b49c25b7965f0302             1177 Packages.gz
+ 486ddfef022afd2f013f28a8a9574c2267bc62d6cfbd365e48fac9cc470d4e84               38 Release
+SHA512:
+ e39e5857be847c7543bf734d3ce9739428fcfefd8cd712ef0cc56bb2d6ea64dba438b7b2a496213342b81653add495050960738ab6b0bb70dee33555a899f88c             3620 Packages
+ 33f7d9459fdd9ebef19e67888b7bdbc47fc078e4b6bc6ded19c1eb516e1ee02b8e28d6797076c7d0f1e0b7083d62c2b7223c7aad086265f47f560b637e921959             1177 Packages.gz
+ 70d895144b2be5ec3db0feb16ad0f970dbc89d44a0902228ec69ac9c2b11ff6efd7600e25bba723282d40e1f7eb115aaa645ae2aeb9310b5c47b9d30bf64f44e               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmdjwW0jHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE1LHxAAtP8/g86b
+eFGQ9T1SmclgC6Wl7P/VVDnpdSC0S4a18Ow0ZuG4V+1FMsYKRnc7egARz+fjWeH5
+nGBR2JwUs7KoGJV7AtZmkrNzrNxSmQMdR9KeOQnF++HsMEyRooTse5cWODV6AvtV
+1L1ufZD10gv3ZhVkNpfEJ6C2/1SKCqoyEaiznPgLxKnYiGMi66ymPoEdDsbmFlNa
+uexTZ8/koPgV9ini4haw6ZUEtZIhofKVUt5/2b3bxvorhnw3CtPjnspwZE2EYT+q
+Myaogb8s8hYmxR115j2aYbombmdXI7EOeMhFz/AYYUkqpXNWDdVa+dwnLZPxFCLe
+mfWwpsSrR4kuRrZ+3DZc81q8nTan3Y+CL77ru3qZ9caH4cNiR3axuq310gwFkxLW
+/q3Wn8ittybhLuAQ6sJJHVx/SNUywCH1e71lejJ2ClcSehCHFs7bi3zoK8YveOg+
+gKEBOoRcgD2uCNkhT1nORpVG1h7MwCQ4in2jR3aJBU4W6zKZPfGgaSJjE3GgNmRi
+w2OWNV8C9KBmxkVROWRMEgCPaMKQfHxZpyvbT4O0p9Yjm5nESvbsp3mJaswrDEL2
+vz/CUWMmIVtVCdatkWJItl/uyWHq5we34mLSBIjJHXOEk6kELGfata4ga3vg1nHz
+ZsUqanXButTa8RolgrSbPGGZxbXgDNAR7i8=
+=5vam
+-----END PGP SIGNATURE-----
