@@ -1,0 +1,335 @@
+Package: cpt-firmware-cn10k
+Version: 24.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Filename: ./cpt-firmware-cn10k_24.09.0_arm64.deb
+Size: 104362
+MD5sum: 808570acf79e60fea74380b86aecc103
+SHA1: 2bbc1e81833e11f2fc1989560d82fa6b11640823
+SHA256: 78e46b42dbfccf4ba7e9ca8a5b4a79802b947a3d2997d5f2d6c967bc9e008182
+Description: Cryptographic Accelerator Firmware for Marvell Octeon 10
+
+Package: dao-cn10k-devel
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.5), libnl-3-200 (>= 3.2.21), libnl-route-3-200 (>= 3.5.0), libnl-xfrm-3-200 (>= 3.2.26), libstdc++6 (>= 13.1) , dpdk-24.11-cn10k (= 25.03.0)
+Filename: ./dao-cn10k-devel_25.05.0_arm64.deb
+Size: 93266696
+MD5sum: 21433dfc3139c945831179cd1a09e2fd
+SHA1: f89bb8b10edd1a46c5cd23ca391a203a5d5de281
+SHA256: ca7670408d665ff077496d52c4884e49cd0b9001cae54b563609ff9f8c2f20db
+Homepage: https://www.dpdk.org/
+Description: Data Accelerator offload for Marvell Octeon 10
+
+Package: dao-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.5), libnl-3-200 (>= 3.2.21), libnl-route-3-200 (>= 3.5.0), libnl-xfrm-3-200 (>= 3.2.26), libstdc++6 (>= 13.1) , dpdk-24.11-cn10k (= 25.07.0)
+Filename: ./dao-cn10k-devel_25.09.0_arm64.deb
+Size: 95438466
+MD5sum: 35c9f54457df8cfb0ef7a5da60841614
+SHA1: f01f355b1d34f03840066b35a9d257eef8bc6877
+SHA256: 88fe233b7f1d4491ac7eecf45fa2b7d9d1be144159f0e3c9f08108dc9609067b
+Homepage: https://www.dpdk.org/
+Description: Data Accelerator offload for Marvell Octeon 10
+
+Package: dpdk-24.11-cn10k
+Version: 24.12.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13t64 (>= 3.3.3), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libfdt1 (>= 1.7.0), libjansson4 (>= 2.14), libbsd-dev, libarchive-dev, libelf-dev, libjansson-dev, libacl1-dev, nettle-dev, liblzma-dev, libzstd-dev, liblz4-dev, libbz2-dev, libxml2-dev, libfdt-dev
+Filename: ./dpdk-24.11-cn10k_24.12.0_arm64.deb
+Size: 260177412
+MD5sum: c099635c856503400ff4a9ce86f849a3
+SHA1: 0e43efa95cf279c6ef855ce2e59324c545268b37
+SHA256: 8969922ba23c0d00a2078684089ad4fc6224076549e8ce0c53f0489db37d4723
+Homepage: https://www.dpdk.org/
+Description: DPDK Library for Marvell Octeon 10
+
+Package: dpdk-24.11-cn10k
+Version: 25.03.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13t64 (>= 3.3.3), libbpf1 (>= 1:0.8.0), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libfdt1 (>= 1.7.0), libjansson4 (>= 2.14), libbsd-dev, libarchive-dev, libelf-dev, libjansson-dev, libacl1-dev, nettle-dev, liblzma-dev, libzstd-dev, liblz4-dev, libbz2-dev, libxml2-dev, libfdt-dev
+Filename: ./dpdk-24.11-cn10k_25.03.0_arm64.deb
+Size: 269466868
+MD5sum: 49febc33893ced6536936b215d0ed5bf
+SHA1: c1695595cf590e6889473abc63e8061901d1a7d5
+SHA256: 4338c2d54b05acf54074e88213294ed3d1164d4aefa83e59642e64cacec506d3
+Homepage: https://www.dpdk.org/
+Description: DPDK Library for Marvell Octeon 10
+
+Package: dpdk-24.11-cn10k
+Version: 25.07.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13t64 (>= 3.3.3), libbpf1 (>= 1:0.8.0), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libfdt1 (>= 1.7.0), libjansson4 (>= 2.14), libbsd-dev, libarchive-dev, libelf-dev, libjansson-dev, libacl1-dev, nettle-dev, liblzma-dev, libzstd-dev, liblz4-dev, libbz2-dev, libxml2-dev, libfdt-dev
+Filename: ./dpdk-24.11-cn10k_25.07.0_arm64.deb
+Size: 270538004
+MD5sum: 58a6390de18f9660f4cd39206ed41e12
+SHA1: dc602553dbd596d515ae69ff6bed0a9518c102ed
+SHA256: ee3490c12589d95103f31fba9aad141d83b0f9fffdcfab2be7e97ccf9ca46c9f
+Homepage: https://www.dpdk.org/
+Description: DPDK Library for Marvell Octeon 10
+
+Package: ml-firmware-cn10k
+Version: 24.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Filename: ./ml-firmware-cn10k_24.09.0_arm64.deb
+Size: 52918
+MD5sum: 9a33bffd85510a886438983a484d32c7
+SHA1: 4a3ca4e9b47c2c7c108275832580efaa503629a7
+SHA256: 4d95b4ec6b5a35e5916a6a62add24a554aca54751732bfa50924784ea7b6cd2d
+Description: Machine Learning Accelerator Firmware for Marvell Octeon 10
+
+Package: ml-models-cn10k-devel
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: ml-firmware-cn10k (= 24.09.0)
+Filename: ./ml-models-cn10k-devel_25.05.0_arm64.deb
+Size: 63741840
+MD5sum: d11ac02ff0a0ac5f38803be653ff8fc9
+SHA1: 256c1652f85f13e63463c128b9e0c3dd169f4c03
+SHA256: 8660ca6fa5cb46a2c9557ad9b6c7e29bfc04b236ae9eea640a3bbae821710fd4
+Description: Machine learning inference engine for Marvell Octeon 10
+
+Package: ml-models-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: ml-firmware-cn10k (= 24.09.0)
+Filename: ./ml-models-cn10k-devel_25.09.0_arm64.deb
+Size: 63730548
+MD5sum: 7b66f3bf4b9e112c9351291be2451819
+SHA1: 40cf7a2eb776a2198736fbb7262f6f85bce15de3
+SHA256: 7e6b1c3f663b16f9554a678e1e018f3d07c5fcaf9999772d08c4ac45e73306fa
+Description: Machine learning inference engine for Marvell Octeon 10
+
+Package: nginx-1.22.0-cn10k-devel
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), openssl-1.1.1q-cn10k-devel (= 25.05.0)
+Filename: ./nginx-1.22.0-cn10k-devel_25.05.0_arm64.deb
+Size: 1533382
+MD5sum: 958ce1ab6704f4e4afcb34c891573ffb
+SHA1: 39642194674c405617d3f5fbf389950f3b517867
+SHA256: fe11b589e445e5c4ec1d81e380063de17f49612ece8c663ecd5e55dafb3790f9
+Homepage: https://nginx.org/
+Description: Asynchronous NGINX for Marvell Octeon 10
+
+Package: nginx-1.22.0-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), openssl-1.1.1q-cn10k-devel (>= 25.09.0), openssl-1.1.1q-cn10k-devel (<< 25.10.0)
+Filename: ./nginx-1.22.0-cn10k-devel_25.09.0_arm64.deb
+Size: 1536834
+MD5sum: 4ed22b6d9df866ca1515a938af07acaf
+SHA1: 652fac38597d9b8eea3b8a532471726c96977c06
+SHA256: 5a2ed9f95db6eb75b8d93a23690f1269de596fdc26ebceab83211776b47f3fc0
+Homepage: https://nginx.org/
+Description: Asynchronous NGINX for Marvell Octeon 10
+
+Package: oct-ep-target-cn10k
+Version: 25.02.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libconfig9
+Filename: ./oct-ep-target-cn10k_25.02.0_arm64.deb
+Size: 175598
+MD5sum: e435c4c1af0c642f0610a0441b6c9d68
+SHA1: 3e99be96ef198ba5d96aec8f9615b65922fc6b71
+SHA256: ee249cf2afb1737cd55712a512f573b2f5427c33497c3dcab6574bc78104edb4
+Description: Octeon-ep agent for Marvell Octeon 10
+
+Package: oct-ep-target-cn10k
+Version: 25.03.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libconfig9
+Filename: ./oct-ep-target-cn10k_25.03.0_arm64.deb
+Size: 175608
+MD5sum: 0982407652023b7c428d01633ee3b03e
+SHA1: 4dea106588269139bc1b2f303654b80434b5619b
+SHA256: 42c38db4cec78deb69d2460c987d64a6d5f2a16f39a92684078539d92a350368
+Description: Octeon-ep agent for Marvell Octeon 10
+
+Package: oct-ep-target-cn10k
+Version: 25.04.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libconfig9
+Filename: ./oct-ep-target-cn10k_25.04.0_arm64.deb
+Size: 181640
+MD5sum: 5325a4b95e0ea1772c414d9649aab1da
+SHA1: c366520fa5b35bb725b9a09df4c7bb1acf8b4e40
+SHA256: 62d1902837ec9faceb17893839e489c39164d7b4ab57abc8eef304e5f7fc8c22
+Description: Octeon-ep agent for Marvell Octeon 10
+
+Package: oct-ep-target-cn10k
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libconfig9
+Filename: ./oct-ep-target-cn10k_25.05.0_arm64.deb
+Size: 175792
+MD5sum: 229cec207043bc3e55f5016cdce90b58
+SHA1: c25030c01090750adb3e1530a64e9cda9ff5cb7c
+SHA256: 671f9e4c3164bb8ce314ee8674eb9d18647cf6a9408e7b839a929910ee624223
+Description: Octeon-ep agent for Marvell Octeon 10
+
+Package: oct-ep-target-cn10k
+Version: 25.06.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libconfig9
+Filename: ./oct-ep-target-cn10k_25.06.0_arm64.deb
+Size: 175740
+MD5sum: 0ac9b11cad77007fb2bbb73cf8b7f822
+SHA1: 45d1abb4a3d2cd5af899675f0d085ae5238b186c
+SHA256: fe8fd5b7f8060c247200d7cd80a6c7b00c42f62a6bed75ca85d100824f58899d
+Description: Octeon-ep agent for Marvell Octeon 10
+
+Package: oct-ep-target-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libconfig9
+Filename: ./oct-ep-target-cn10k-devel_25.09.0_arm64.deb
+Size: 175396
+MD5sum: 05f7a5a68f9f49c07a1484b6984809f2
+SHA1: 77a48f42667c203dc321edfe2449273e2d7c7790
+SHA256: edaf8ff40ce556989f9710e387a7f14e247e376cb724ff975d20f745a5561d20
+Description: Octeon-ep agent for Marvell Octeon 10
+
+Package: openssl-1.1.1q-cn10k-devel
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Provides: libssl.so.1.1, libcrypto.so.1.1
+Filename: ./openssl-1.1.1q-cn10k-devel_25.05.0_arm64.deb
+Size: 3082694
+MD5sum: 394f34048270db4118a31e2b7d8fe4f1
+SHA1: 1b9fc2b4e90c84b31ad762d1460ef48c995ab1f5
+SHA256: ae86256c1bc57966d66ed3144c802644bbadde346a071e2eeb49691386958da9
+Homepage: https://www.openssl.org/
+Description: OpenSSL with Asynchronous support for Marvell Octeon 10
+
+Package: openssl-1.1.1q-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Provides: libssl.so.1.1, libcrypto.so.1.1
+Filename: ./openssl-1.1.1q-cn10k-devel_25.09.0_arm64.deb
+Size: 3083352
+MD5sum: 8280d9eedb41f96e8cd98a3f56ef2a82
+SHA1: 17e65633b1e9aad606da72af5f4e279094761f18
+SHA256: ce92a1feaf4755b1ee18f0cfcd27a8bd19e9cabceb3783d4c0af8562c9a4ecd7
+Homepage: https://www.openssl.org/
+Description: OpenSSL with Asynchronous support for Marvell Octeon 10
+
+Package: openssl-engine-1.0.0-cn10k-devel
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: cpt-firmware-cn10k (= 24.09.0), dpdk-24.11-cn10k (= 25.03.0), openssl-1.1.1q-cn10k-devel (= 25.05.0)
+Filename: ./openssl-engine-1.0.0-cn10k-devel_25.05.0_arm64.deb
+Size: 68156
+MD5sum: edd5a7f79c69321b9ef96dfe981aef31
+SHA1: 594279e7a04e4826d002e4efd2db6d4502d3a760
+SHA256: b65188127ee92dc192d3c5a1fea4c27fe9eeac8c6379e8eb5aa472fef592a8d7
+Description: DPDK based OpenSSL Engine for Marvell Octeon 10
+
+Package: openssl-engine-1.0.0-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: cpt-firmware-cn10k (= 24.09.0), dpdk-24.11-cn10k (= 25.07.0), openssl-1.1.1q-cn10k-devel (>= 25.09.0), openssl-1.1.1q-cn10k-devel (<< 25.10.0)
+Filename: ./openssl-engine-1.0.0-cn10k-devel_25.09.0_arm64.deb
+Size: 275916
+MD5sum: dd7175d91193dd2ecc14cf4aa451c70f
+SHA1: ff0ab483d03ebb8f9d6a849f070e1a372430d70a
+SHA256: 586b92c2bbfe173b07c4f05e07e41522369d33bf0811ab8cd15887323ad90581
+Description: DPDK based OpenSSL Engine for Marvell Octeon 10
+
+Package: ovs-3.4.1-cn10k-devel
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13t64 (>= 3.3.3), libbpf1 (>= 1:0.8.0), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libjansson4 (>= 2.14), libssl3t64 (>= 3.0.0), dpdk-24.11-cn10k (= 25.03.0)
+Filename: ./ovs-3.4.1-cn10k-devel_25.05.0_arm64.deb
+Size: 18785614
+MD5sum: 9462d45416fdaef69b2673acbd9a6044
+SHA1: 055330c23332636f993601306712f45b9e14f31c
+SHA256: 6eeb2c78e12e5172b32e040c608514bff241c543bf50fafd9469ee0a51b9366f
+Homepage: https://www.openvswitch.org/
+Description: Open vSwitch (OVS) for Marvell Octeon 10
+
+Package: ovs-3.4.1-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13t64 (>= 3.3.3), libbpf1 (>= 1:0.8.0), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libjansson4 (>= 2.14), libssl3t64 (>= 3.0.0), dpdk-24.11-cn10k (= 25.07.0)
+Filename: ./ovs-3.4.1-cn10k-devel_25.09.0_arm64.deb
+Size: 18779898
+MD5sum: ad35d599e65e941fa68321af76407534
+SHA1: 5ad392be5bf4db29a1b3d1a552ee65cb40030478
+SHA256: be0bf88a9ccd6c7f164a4e27f92ac90b543d7ac02352ce9109078c7d2c53793e
+Homepage: https://www.openvswitch.org/
+Description: Open vSwitch (OVS) for Marvell Octeon 10
+
+Package: snort-3-cn10k-devel
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libdumbnet1, libhwloc15, libluajit-5.1-2, libmnl0, libunwind8, liblzma5, libnuma1, libuuid1, libstdc++6, libpcap0.8-dev
+Filename: ./snort-3-cn10k-devel_25.05.0_arm64.deb
+Size: 103410702
+MD5sum: 5aaf40ecedd31eb3bb9d2481dea5aa5b
+SHA1: 4d934e033dc260dc6758860b42d398d28718a9bd
+SHA256: e6a03d62431c3286139a8c3b19a9888cdd4dcfe0dc8e670793003ec5fb04372e
+Description: Snort 3 with Vectorscan for Marvell Octeon 10
+
+Package: snort-3-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libdumbnet1, libhwloc15, libluajit-5.1-2, libmnl0, libunwind8, liblzma5, libnuma1, libuuid1, libstdc++6, libpcap0.8-dev
+Filename: ./snort-3-cn10k-devel_25.09.0_arm64.deb
+Size: 103410836
+MD5sum: 63d31c8ac00514b454d3b74647485832
+SHA1: 182b8ebf8e92e948734c50157630ec13162bb8ea
+SHA256: 0e19e3ec76a69a05445c01388b485c38ab2c7844a0420f7b71009e0efa4cec8d
+Description: Snort 3 with Vectorscan for Marvell Octeon 10
+
+Package: vpp-24.02.0-cn10k-devel
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: python3, python3-ply, dpdk-24.11-cn10k (= 25.03.0), cpt-firmware-cn10k (= 24.09.0), oct-ep-target-cn10k (>= 25.04.0)
+Filename: ./vpp-24.02.0-cn10k-devel_25.05.0_arm64.deb
+Size: 72147234
+MD5sum: f8b119add95668d1510c9933f0e75311
+SHA1: 15e792a062e5559e3d18ad96846215e4e82970fd
+SHA256: 813af57ebe6ab8168c9300289964ba0d46467284d8bccb550cae1f93bb51cc72
+Homepage: https://wiki.fd.io/view/VPP
+Description: Vector Packet Processing (VPP) for Octeon10
+
+Package: vpp-24.02.0-cn10k-devel
+Version: 25.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: python3, python3-ply, dpdk-24.11-cn10k (= 25.07.0), cpt-firmware-cn10k (= 24.09.0), oct-ep-target-cn10k-devel (>= 25.09.0)
+Filename: ./vpp-24.02.0-cn10k-devel_25.09.0_arm64.deb
+Size: 72326406
+MD5sum: 6563581e2323cdeddbbf98a40526708d
+SHA1: 956d7d0cf0f960f4f99b0fe9d7008e6af5f0f12b
+SHA256: 28455022ae72be961b394441dcdf9021e085cd109e77c4352f58ab30891d620a
+Homepage: https://wiki.fd.io/view/VPP
+Description: Vector Packet Processing (VPP) for Octeon10
+
