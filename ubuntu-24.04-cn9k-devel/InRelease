@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Fri, 01 Aug 2025 06:30:03 +0000
+MD5Sum:
+ f84c785dc1d1ffa9d1888377a5d2ee7d             6198 Packages
+ ecf7cdc51d409b9e7edf1f7d83a8bfa0             1869 Packages.gz
+ cc8714ea721e2250948e8e2ecff2ff37               38 Release
+SHA1:
+ 7b9f3a77244334a9bd300d4760fe8de7665be244             6198 Packages
+ 0dd0647abefb771dc507d315364e68ac4313cf9c             1869 Packages.gz
+ b349cd4dc62f83c94a5c0e3cccc9c2390d2dfddd               38 Release
+SHA256:
+ a49cc2524f63c010170b37ffbe9be76494e5239a659d92e0d4051d6f5018cd9b             6198 Packages
+ 3aed78f15647e9f6cb91b125586a369c3a87cff511b0dd3513f376b8d086dd22             1869 Packages.gz
+ d03965b9f4c694f4ad905bc8d2a37b59313222c3640ad18b351e450a36fa57a4               38 Release
+SHA512:
+ bad170938216d61d0b74e94d2a749599853a209e4e4c9981d547c72dae0b9cf373fcd83a079f6a9cb0798cd4bd705b77bc73d7ce7302dc072d4735d6c5d1d5d7             6198 Packages
+ 4291411b9f5e706c04458799ad4151b1fb8d230a995a9d7d7d7d13a34c10bb846e91892a06d9ac991a0aee170267b95da80f776c4c22342db599b340041d7139             1869 Packages.gz
+ c7983b4fcc50e032e0dc85980dcea5ed02e7da6dd1fe6d29f1bfcdf611b87cc9d0a494097a86b2b3be2ced631904a997e059752425d7ffccc8b92381f630de4f               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmiMXuwjHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE2Y8xAA2BHvnkQy
+LeF6gu8GHbmfUlPVIdpX4ezhBp1tvhfdeODxFcoConRRhUoigziHqotGE24Mb9Mv
+kzhnp9Oq9nQAB1oKOct3Hv1NhXSJdm/PlmRcQnxmiAoMUrTb1xsO87x41nQVED7q
+4UfCzKTO7RLOzghg8gLikR50vN7bTo6tf9lJQzp4JBNYPbQRqLgtSkitYEPrjE76
+NIHtb3U56FMFy+W0g/H28FLByaxdCZPEVXELkh+f9gdOX1lygnDqhssigfMfwRST
+qLOkpe6MeJ2r2aA7FBP2/dJw9fhqcBLRLdmqxIpXcpsxKy7qnOFf9dn9Q1QFh0GL
+9yC8+DeQw7+Wyu2XWNJuyaSDOqdRePLeGj2LOBjqvJMpaq86xibuN5t9gfkvt4br
+kaBZJiy4zqwtGPZJJmToWBo7rFM3GVJ45GC/VO8sw5Y63HYGV1e/EkHXLe24ZFMZ
+ipBulgMdb2EzdZ6uQewKiPEjn5Kls2ShOlVWUyCeo7793GiIFoUuRgmMzfgZOLwZ
+gwRzpwtCIpYrwqyVxJ+A3SqD25NIukv+OvlWPyiKK0T4+MN6PtSPebk/mnQVvIJS
+sIdpXd0Sw6a1RlorvFAXUyPdwknYZ8E1MfQLxkeRtUQp7TaAGrLxD6Yp3jfTI2cc
+3DT27GKmM3sdqj+zXeDt3TSwXvO3CiDoFd8=
+=3tww
+-----END PGP SIGNATURE-----
