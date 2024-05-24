@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Thu, 22 May 2025 06:12:58 +0000
+MD5Sum:
+ a64923ff84f6c7074e302dae906997dd             6724 Packages
+ 805551c2aadc4653d995ee5de6c2d346             1978 Packages.gz
+ ed2c5fe1cfe5d19a00a798ff77f207da               38 Release
+SHA1:
+ 520b337673e985394154cce5a82db3db087b4274             6724 Packages
+ 6ecd312412976eba12d39dbe9bf67d557a4142e8             1978 Packages.gz
+ 91eab1d1f23ec338b26c6e1d4b4f474aabb2ce8e               38 Release
+SHA256:
+ 630f365138f9e7a07f7e8198fab317a5903f9aa61557d804b737e5112a6654ef             6724 Packages
+ 8ca1d1b27ec991d50ef08cb7f775b64c7cbd810304fa90dd945965a894082f53             1978 Packages.gz
+ fbfd5de759b4e243a84922ba3be0928c0c197222961b99d12e071d4d2f196291               38 Release
+SHA512:
+ 963c49ce813ce1b984b0814f8e4ef5707784594371310e5278a5bb36259b5eb5e30acd221d2cf26eed38ed23c4cb3f959da66d05f95304939d866c0874e5faff             6724 Packages
+ 514072d7395da0fd14245a780a76ed5192ea644f97cf615bcb1191919904c42a7fa467ee2d152cb0819a247c801cdddc483e10de313ec0900417a3d5bd4acf9a             1978 Packages.gz
+ 27ccb511edf53fec3e580263daa07cdd2d030890e22bfbebe6349878451a8d84a34204c1965b626dcd6c5f7a85935334c7dbc486a88bfa3d447a4ccf06393ede               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmguwGsjHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE0QuxAA20o+nrdX
+numkts6ICfah3LOvT+YeOmhorOnYUkSbXh8XACbCEyFkI7t41619bPgkuioA5n3o
+ysVu20xw43HTxUStkB5S6O/vhIgu2wpv6bXa03UoUOziueOHlhWodmHan0lhjRg4
+f2OqkEU2MeIEVErDzgbxjHCjke+MJvHpJyce5XQhXqLSxSZDAo1y7ktWYGi0Ea+c
++53geNcuPYGQnkiwFphobGcjk1PcNr2UWxzwTYz4assk9iWEpnYFy8erkClyvpU0
+Xvut06xF0FgpBqjUG+gfXGwHG9SsSNCPVtVI/DrhU3nPYLc7V8RBIGJ/F8A4TxmE
+phY+PYpvlMpjjlr0FAfF6c3/9Ll4V+Q4DJxgsavA/TuNu/yTThtwddx8p39gAGiI
+c71Hg/TzaL6JQc8mWS+wFcmF7asMeFm6dfJWltd0+L5n3VQzsBfzEhMSAkwG6RUd
+FVbPR85eIv77FhO/BFLpFvogA9qnewLdkkEpD78SQ/hs8WIfrc43MT5UHkXM5odR
+ORFcMbomiv+he8sEj1CxRA3cmgjmIqGntc/siSTQvE/7ZHUeWQw2UBgXWTU1+4ov
+aJghJoXDTf+++V5o9Wr1rNlWe6EmnC2AMVCtCOEQMe8GEZpdqS+etiI8wVzaBMBF
+zBzD2oFIWC/c2vevKi7fr/G6RXACn95fwis=
+=DsEw
+-----END PGP SIGNATURE-----
