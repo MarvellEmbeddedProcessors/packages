@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Mon, 16 Feb 2026 00:45:17 +0000
+MD5Sum:
+ 9f12e4fdfa4120e9ada4bb0e48f643e1            41635 Packages
+ 8893dd1538147cffbadac40a686f504e             9219 Packages.gz
+ 2bda67a7ccb9bfc41c7db27d55b8d5fd               38 Release
+SHA1:
+ 3ba4c371915abda8ff54d1b6d4195acd91530362            41635 Packages
+ 7a2f4f00b3ee7d5d49b3fe842cbe7f1804e72364             9219 Packages.gz
+ 8d922cf270c06caaa45e9a6bf11cdf1bbec7f566               38 Release
+SHA256:
+ b00cff54c977a70028876689100a419d224a4ac19ead8df3313d99cedbb2c8c2            41635 Packages
+ 4f38e47a3c2d843bbde98cb4b89699ba9357c4d5c7761a6c333fa9279cfec7d0             9219 Packages.gz
+ 44617ea6b53cc118ba8d13a56ece33bf39b243b546a57dcabb0d277f0ad7b238               38 Release
+SHA512:
+ f697986bbd20a728076f2c0dd29a12178eba9603b3f19e99a2c3d4bfae060a3524a2d3a867401976c5622bd22525d78f499d8384ee196cc082a5219efc81ee24            41635 Packages
+ 67e5613dbaecf3e9a2d06a5c5bf4daf861a9d8ba990a634f61f3af8053a070a178c3d86ecd0ad97fe53a8c0c9f46db2fd00c2e031995ff8fed64c9b69314a2b1             9219 Packages.gz
+ d38be82287b853ffb22109ee99f984fd1472915f798e593c51798786097928bcffc90ccf4b7753404bed0dac990b12fae9fba6724cf9680213f7ac665eb3b364               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmmSaJ4jHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE2JORAAyg6al7UK
+hSmBl19IJ1oSt26lCi3DJwXbbPjkUiUj4Sh1vSjoX3DCCq0tWRDozrJS2+ngX7Xp
+cycnBRCdbCrxmJ/vtmt6pOLidZbuSysMjGWP0RaXZj2QYJb25VTNQ4DBCgbP/WMj
+L2yzuj/4Of29ESCExL6q2scEjv6UyLv5V2lwrewv+uXxiVYJhq03vkvLrJ3H/vwU
+AsKOAm7u1Wo8ro+rU9XXjo6u44hIfL94kDPuPDa3oL2GogC4KpOsWrkjxrCuO9E/
+4DTEI5Mazha7ccrqrktO6nr67UG5u0mGyBqmTZFr7bZoRJYNtND45tcOKVAjro+h
+BSK+IkXFdxhVwhUm619ExRJxuh5G7kilseSmmR9uU/NETbUPjSNRkP2+Ws0plf9J
+WWby++YTMLjkqrwtGhlDBPxHFAg6WA15oyz4OA6vfjqBhupIYmGkMZu5JEg/gxsr
+2P5I0gmITZWDVUqEZ2inpQ6ynslM18R2tgMnquw5s417O4gJULuOcL9tP2bDv3/s
+qYzRSBobWXNiLdcVzXt2tqWyS5R3gmmzQAFtI16YFaj+gCCfQ2g1huTejNvhlYua
+tbgAB7RGhYeMHyiZlFKLCXUtYqEEI1SzKpKIFG2KsdtIyzW4BYGRrRGsEXMmVjPP
+fHyS2JpY+Yi2eR/rPo7EFRrHrGQJB/V9W9Y=
+=ovs1
+-----END PGP SIGNATURE-----
