@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Sat, 08 Aug 2026 00:29:46 +0000
+MD5Sum:
+ 47de1e4e9e8dda79b6635c5ab6a27056            65256 Packages
+ 7d46a71469c992c3d4d1acb6c47500a0            14372 Packages.gz
+ f6f4e078b376becd727f7ca7d423b204               38 Release
+SHA1:
+ 0d3762b3b5920ba8ce14dbac0c47199332300632            65256 Packages
+ 2280525ff7c06cb8ce9066ac67e3534747e74dd7            14372 Packages.gz
+ e5acefdf4e016dae2d07130d2e6273c5ea4c5ce5               38 Release
+SHA256:
+ 8ce2ff4f1b73a83cade87735b01f4501e5a5d979d82e8c80b1adefa9b90d8fc8            65256 Packages
+ 6653415a4f34e6d68198f2a31b58cb1c6abfbfc4c4928a7ad969a74280a8da08            14372 Packages.gz
+ 1cc53be5bfac953d9395df5bf728a1fe02332564749bb1f26d5c981c2f17a309               38 Release
+SHA512:
+ dc1edaa1969235a864c7096ff6ff7f878201a7896a2a163f949c170199007a45acc943edd686949c8595672f1f003f4f608d51d18bc3bc5d96d9bc8e19b795ba            65256 Packages
+ d3890f55a96777d71f5aad1b142a5bd28fad24dee7c8b1c943cc49b83e077eb7f24ea1aa9705973aebc744198ea1ef7ec6e2f2a6ddabce166acc401d024e2bef            14372 Packages.gz
+ ac40a0463fec9ac6aea0f0accfaec4b66c4362b98a4db6098153290978b613c059726a415ce456b71a526056fc32e627f828c2fa4f70fbe5f4638e8e745cbcab               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmp2eHsjHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE1dHg/9EGCJPJ/6
+5YES+XR5QuWxeT2T7lp1Dm1wIqb5vXIYtYSiNngr3DaHiCKkVkcZjONjRwJI5NmV
+71lwh4gEBhZXb8n3Kb7u6nesM2q/WFGCHZKImq/a4UZN0QaTacAK35PVoesOdxEZ
+rHy9sK6lq5HSGTab71zGnIYD2c94KZ8+tHPgqmgvXD8sVDWRb5YtKILguw1iSw0X
+On6VVCJ1tQhoLuAPhSDqnbEcdXyO3mjlTV4d5H7G5HrxX7acjtzt3+SDRzSerjat
+jVgG/PMrbwM2lriqtz3W3ad0nORwBaODVgD1cPVtVsldlxcI2afK55a2VCX/N83X
+Y5ptguBgCkujHfDyob+KFLNvzPa6aSAFNDF/S/NFiQUMluQKEV7C9yD71Pkgg/Ih
+RxkDTwXc9Z5dBvlUXcv1oD1e/chyUPCK3R7Q0RNfTUloZeO4X+XoAftXwVxoFA/k
+VuYfhtkzLs/fv7OVvtlwF81uT3qHZe8qzM5f6kQ10AWgnuOpn1HE6PWiwnkEYhdY
+2+RO8OsA0yScdzhp8lBpPUx8toGekoI+3lpUO0fdmFf/eX6e2mvy0UyiWAFyVJpT
+a6uDRalynAVC/2oVvmP0lTzaMlqS0Yj9eqx1VKkVkiuHjMp1HUW0RGyVS+9zzHTK
+wzsGrll40L1eGCn7jVGozyoTBBPXXL80EzU=
+=Kfnq
+-----END PGP SIGNATURE-----
