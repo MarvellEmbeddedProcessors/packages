@@ -1,0 +1,151 @@
+Package: cpt-firmware-cn9k
+Version: 24.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Filename: ./cpt-firmware-cn9k_24.09.0_arm64.deb
+Size: 48372
+MD5sum: 842687a11ec4745d796562f2ab94cca1
+SHA1: 287e4ff22c16e59039a59c6b7f600a32b1bf08e8
+SHA256: 1082448f66c95546d4beea2114af4651072eebcc11ce9db21181e35753b3d09f
+Description: Cryptographic Accelerator Firmware for Marvell Octeon 9
+
+Package: dpdk-24.11-cn9k
+Version: 25.01.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13t64 (>= 3.3.3), libbpf1 (>= 1:0.8.0), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libfdt1 (>= 1.7.0), libjansson4 (>= 2.14), libbsd-dev, libarchive-dev, libelf-dev, libjansson-dev, libacl1-dev, nettle-dev, liblzma-dev, libzstd-dev, liblz4-dev, libbz2-dev, libxml2-dev, libfdt-dev
+Filename: ./dpdk-24.11-cn9k_25.01.0_arm64.deb
+Size: 86471614
+MD5sum: 09ea5b18193390964ca24d890e4f494b
+SHA1: 19e3dd5211fc33db1d9ae9effd4fa126db98e667
+SHA256: a139736fadc89ad021062a0d2f7eadc2daca17eed86e987c3f7d61884dbb984a
+Homepage: https://www.dpdk.org/
+Description: DPDK Library for Marvell Octeon 10
+
+Package: dpdk-24.11-cn9k
+Version: 25.03.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13t64 (>= 3.3.3), libbpf1 (>= 1:0.8.0), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libfdt1 (>= 1.7.0), libjansson4 (>= 2.14), libbsd-dev, libarchive-dev, libelf-dev, libjansson-dev, libacl1-dev, nettle-dev, liblzma-dev, libzstd-dev, liblz4-dev, libbz2-dev, libxml2-dev, libfdt-dev
+Filename: ./dpdk-24.11-cn9k_25.03.0_arm64.deb
+Size: 86821082
+MD5sum: ac47e67a2f9f1421e80d8224b107565c
+SHA1: f8cce471b97381db05d0f3f383abb00835df3d39
+SHA256: 5f157d43086a5e3335bd2656a580c9b922920872458b4dd03e66e3dee142b4b8
+Homepage: https://www.dpdk.org/
+Description: DPDK Library for Marvell Octeon 10
+
+Package: dpdk-24.11-cn9k
+Version: 25.10.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13t64 (>= 3.3.3), libbpf1 (>= 1:0.8.0), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libfdt1 (>= 1.7.0), libjansson4 (>= 2.14), libbsd-dev, libarchive-dev, libelf-dev, libjansson-dev, libacl1-dev, nettle-dev, liblzma-dev, libzstd-dev, liblz4-dev, libbz2-dev, libxml2-dev, libfdt-dev
+Filename: ./dpdk-24.11-cn9k_25.10.0_arm64.deb
+Size: 91955136
+MD5sum: 0c9f079e1303869edc4f428243cabb1a
+SHA1: b2b9e841347f17acca6c3b1a6767a85e526cac86
+SHA256: fc115735daecdd8f0c69e0f164b1f7e4e7a4b9030d988d05fa899c3781b71e6c
+Homepage: https://www.dpdk.org/
+Description: DPDK Library for Marvell Octeon 10
+
+Package: nginx-1.22.0-cn9k
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libssl3t64 (>= 3.0.0), openssl-1.1.1q-cn9k (= 25.05.0)
+Filename: ./nginx-1.22.0-cn9k_25.05.0_arm64.deb
+Size: 1534952
+MD5sum: b1a4b3d941042f6aae3921d98b3ac0ae
+SHA1: 751119ae922d5822a94c953a51dd25dee75c6dc1
+SHA256: a31f897a210af61e5df95ed4f11f6cc56331079e7d713beaf2d04f244e5783eb
+Homepage: https://nginx.org/
+Description: Asynchronous NGINX for Marvell Octeon 9
+
+Package: nginx-1.22.0-cn9k
+Version: 25.10.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libssl3t64 (>= 3.0.0), openssl-1.1.1q-cn9k (= 25.10.0)
+Filename: ./nginx-1.22.0-cn9k_25.10.0_arm64.deb
+Size: 1537206
+MD5sum: 068c9c7d15a67731bac2da232a8b7aed
+SHA1: 656a561fc05d4c83dc957311ae7490cec3a662ae
+SHA256: b4e0233b22ab84e5908a9e5d023087e702e444377de0e09f9b57ab8a7f6e409e
+Homepage: https://nginx.org/
+Description: Asynchronous NGINX for Marvell Octeon 9
+
+Package: openssl-1.1.1q-cn9k
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Provides: libssl.so.1.1, libcrypto.so.1.1
+Filename: ./openssl-1.1.1q-cn9k_25.05.0_arm64.deb
+Size: 3082146
+MD5sum: 5a62b282ff4a20ad646bcfd84d733891
+SHA1: 31d568d420e80cb9db4c761749d6ec2a434fd15e
+SHA256: 61e7f980fef075e96c6156befacd9d4b88a6cd8db89452c8bfa8d89cc355a91e
+Homepage: https://www.openssl.org/
+Description: OpenSSL with Asynchronous support for Marvell Octeon 9
+
+Package: openssl-1.1.1q-cn9k
+Version: 25.10.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Provides: libssl.so.1.1, libcrypto.so.1.1
+Filename: ./openssl-1.1.1q-cn9k_25.10.0_arm64.deb
+Size: 3082106
+MD5sum: e06781a469f85e5c679b5ea0692df382
+SHA1: 852fd16fa57e993b83685eeecd644ff3756f6411
+SHA256: 099d12c878aaf7620b916acb0325082347fe91d0f59f6a4ff8cfd2a81d265af4
+Homepage: https://www.openssl.org/
+Description: OpenSSL with Asynchronous support for Marvell Octeon 9
+
+Package: openssl-engine-1.0.0-cn9k
+Version: 25.01.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: cpt-firmware-cn9k (= 24.09.0), dpdk-24.11-cn9k (= 25.01.0), openssl-1.1.1q-cn9k (= 25.01.0)
+Filename: ./openssl-engine-1.0.0-cn9k_25.01.0_arm64.deb
+Size: 64236
+MD5sum: d7d06075a2f5662a9c7b14139ca2561e
+SHA1: 5f8bd4ff388b2c5ed7ffb03ef602174b424a34ec
+SHA256: 643f7d707bcb97b24381c4511b9e5b055c5102528d53a9bb0052f10191ba825b
+Description: DPDK based OpenSSL Engine for Marvell Octeon 9
+
+Package: openssl-engine-1.0.0-cn9k
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: cpt-firmware-cn9k (= 24.09.0), dpdk-24.11-cn9k (= 25.03.0), openssl-1.1.1q-cn9k (= 25.05.0)
+Filename: ./openssl-engine-1.0.0-cn9k_25.05.0_arm64.deb
+Size: 281738
+MD5sum: dba16eb15a7f5defd138bd097f2f612f
+SHA1: 7a1db01a2309f70a985b47e7b639e5d625937a5e
+SHA256: f58575115e38718c744ba11d4116d93078db0295645ce5338a10490299bc8508
+Description: DPDK based OpenSSL Engine for Marvell Octeon 9
+
+Package: openssl-engine-1.0.0-cn9k
+Version: 25.10.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: cpt-firmware-cn9k (= 24.09.0), dpdk-24.11-cn9k (= 25.10.0), openssl-1.1.1q-cn9k (= 25.10.0)
+Filename: ./openssl-engine-1.0.0-cn9k_25.10.0_arm64.deb
+Size: 278570
+MD5sum: 247ce13d4322925e74eb53e356f9a977
+SHA1: e6a19dc23dd96cec0151800a20a353928b4d7322
+SHA256: bb1362527cd5780ae063492c80c529a29e430e3b447d67bc549ff07d958d125e
+Description: DPDK based OpenSSL Engine for Marvell Octeon 9
+
+Package: vpp-24.02.0-cn9k
+Version: 25.05.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: python3, python3-ply, dpdk-24.11-cn9k (= 25.03.0), cpt-firmware-cn9k (= 24.09.0)
+Filename: ./vpp-24.02.0-cn9k_25.05.0_arm64.deb
+Size: 71537334
+MD5sum: b8bf27f7cc69b552beebb01160f6ba3b
+SHA1: aa962085c06bc5408bdb15bedc86bc8b7f70f82a
+SHA256: 55795a0fdb5c11790b3a2b1f6ced543e88adcc5fcdc70229c22d686904046007
+Homepage: https://wiki.fd.io/view/VPP
+Description: Vector Packet Processing (VPP) for Octeon9
+
