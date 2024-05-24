@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Tue, 08 Apr 2025 05:33:53 +0000
+MD5Sum:
+ edda41136d9ffde5acecdff9457def25             6196 Packages
+ 943b6270144ffe19484acc78679610a9             1868 Packages.gz
+ 37d1e5b3fa53d8913fcea26f271e7d78               38 Release
+SHA1:
+ a694442e9554e9be7e4cdf79330fdec0721bacbf             6196 Packages
+ 73ac6b23ccbb68d0c1ed64a46ed12368b7447de2             1868 Packages.gz
+ ef780406efe8ca4312ad7430de2e8ea07f805cf0               38 Release
+SHA256:
+ 86e7b37f236c27c105a27a2295864b5bb9e1e3cf029c3b33fbf5279c4d8eaeb0             6196 Packages
+ cb87e4852a1e9cf782bfd0a96ba24e54781466f4cbb130e20c65efe4c8f441bc             1868 Packages.gz
+ 9520da5889722987e2ad56152670ed1ed447504d5fb72d4da5d697beadf06fde               38 Release
+SHA512:
+ a76870caf79def2a9e7014dbb8d462d4748cb6a8cd04a6947a77d574fa233073220acdc38c47ac8c6d07c0f6a6b5f74f5a89f9b7b56b2bd813f170c21fa748c8             6196 Packages
+ 578183430d6ecdb127f4e5612805f22304b07e11662dafc045eeec6d8071d161bf33762ffbba2e07259539fe9310af7a42d2dbbe282f50d9e4802b63e378b9ed             1868 Packages.gz
+ 610fd6b098943c7db4e4e435f82ec31ade4024326f11a4d793afea3c3c43d34084d8f08bad71696c21f9b8945343ed52b33f415de6b57f8a907cc190400a2dc3               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmf0tUIjHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE1ENBAA0E/FNru/
+lAqHlvoHspXcbNL5bsGhRRKoXjGVH9sDuisYEfqUDeFEu/KQsTMRZ265moA8aNqo
+Z4FAd9JtC+OzCOATi15Q1BwopokZmBIkoWAppBnNJePhL1MqT+dQhAm6ckeu+6gk
+KYUT45k92iVQ+ViJadqQUQnvCeAv7U9o64jJg8vQ0uWra48O3clbEcjUN3ik9nrJ
+xS+s+pd41nNvIOn2HUmKE9ICkTkhqeZ72gUFo3w0uugxqbrcGgWHdW4LmxSDtC9r
+h+Mh3ylnyO8q0WFcXeC/cqa5PN8eCWOnFMdEUzba+xhukysbAJaH4QIU5lM3Ampb
+aKWt2F+GBuccJaSLuaYFFzlIzNrK1NTjfsR6DMsLRd3xqSYyVbUBv75DnH4S5rmt
+Xh7L0reIDhbG7QZveAn56trfNiTe6MeokJnycxj7G5S/UKOI/yzE8TPVNM2EXPYX
+EDYFrg7bLz3PIa8M3IPhKWYhoTUNnOcOmo2q//hL9/u+Z0DHU7q70LDXzdUIv2xq
+ovCadunB5NytOquIqBbVwHGPMJyO2VXyqigCf5+q5B0/d8EmP19ksxxVqOsPrhJj
+9B+n9+XPUsnrjNZHTsQtCXoV873pmFZgi83SiRXpZ381R2ta2VLDGjQ6S836FWAB
+8tLygJx0v3BdcvIhU9zmvOZr1kZpVbA0EZc=
+=d6QY
+-----END PGP SIGNATURE-----
