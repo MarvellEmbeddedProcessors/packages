@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Tue, 25 Feb 2025 11:15:42 +0000
+MD5Sum:
+ 08ab3029b6829d88dfd10e050837ed1d             3513 Packages
+ 3d6175db033944699d54c416378e0a1a             1274 Packages.gz
+ 75e39053b26c48fb44db3d046f7e62ad               38 Release
+SHA1:
+ d0ef2619c0a5251d7ffb0a32a5e74de6eda833cb             3513 Packages
+ 657431cf2b5745af8d67fdfbe77169e38a709638             1274 Packages.gz
+ 98e777ac655fbefad72ede8f33739edda3a72be9               38 Release
+SHA256:
+ e1690b243ea9c617e080c2ee3b8196f16cc91539921b92f9acc06295d181aef0             3513 Packages
+ 27df92ba37387e4f12c8a997ec6e258d3bcfd54c5b0679ce8392462876b33c6a             1274 Packages.gz
+ 7ceed8651eb613695735446dae7a64fd019a175fb22ee029bca8ac6c0cb3254e               38 Release
+SHA512:
+ c8fcedcd57649a68638ada14cc196a36cba6366c7dfae823e0fa653eca26ef3ebde75c07bf0455c48a7a1e7338f41711fba21514a862ac677ed0d424e02743ce             3513 Packages
+ 0fba820beb133a567532265d768158269f5a5bc23c94487b8aa68f5ecf391fafc9740c216204db216de9df94c661f20253ae4eddf374e4614fdc7b84ad2c3ad3             1274 Packages.gz
+ 4d646505ce0ac2f4477bed1b7f44acf5f3dae18dabbf99cbac5205833f1824b61bd401101470cf96aff65b6ec84841e27330577978d32d2da895eb64f4d866a0               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAme9pl8jHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE0yGQ//R8rF1lSc
+s3aR8RJJNfv98d/fdpq96nXV1aii5uAYYpssAhu8bxCMf+nOl7onUMkFQ3bapMHc
+arjw0PKlFVReNKq+/Hcwnyta57nSD2RiNPezyu6BMta2VqueMeZ93jIgr6oPG3hw
+Rz5FXRUNaya0fqUi6YnFpXpfT4m/WHBbuIgqAQh9nVLhOwGriQL6xDh7GX2GZtkF
+v5oVHCebt1+qsITgDtd2vJ0tKeLWTSgHIOCv28RYKr9UGkX5dIaM+eSnpn3xaVaM
+GmCbV1PZgUKxo66WbfDrZKPTAxvoI/VKY6pxtAzpH8nOkthaH+sQYsaFRtCwshbG
+AxqlIEFuCsJXdTL22A9B2l4t8YrlybzShw7zFJFbFaljm0NF2LYtCtgX8bZ9hu7l
+PYYpzapsFfmN4XiVeIs+9VG3VSxxYp+hx2oStI4EeVF3eUrQyF28+J34owbguzt8
+SInaTQUZwHMfstac55dygc8eP8kAFynIQJQXEbS0cUD45w0KWyItBRTNyQASSt2k
+6sRsG5VuBOrdholaD+3za4UotRf69WuQUExYUysMu/pwnbs8mR2hWc+O6UopviyT
+REnbZeHtRGKtdV556ThIC7VcsS9f3LzmqEXVR3s2ipBuRe754q+rxRztpxCLVWBF
+j2wmpjXw/kGJ5T+K9qqeWpvkMO2lC93Vo4w=
+=50nk
+-----END PGP SIGNATURE-----
