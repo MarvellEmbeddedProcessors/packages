@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Thu, 17 Oct 2024 09:13:11 +0000
+MD5Sum:
+ af37f33ce59b2041096fb079d2c1f672            22003 Packages
+ 3b9bfae98805f90ece41345f92ff6690             5274 Packages.gz
+ b43fe4d08e83682d9a33a1dc8939dc31               38 Release
+SHA1:
+ 9a95f2d8b4cc0a8ad6e7e2e225879c8192f30ec2            22003 Packages
+ e9c0e114e9d26daad3bc3b1baad37a93447b4e40             5274 Packages.gz
+ 6784ffb0fccf702f74579852710b5f2ce11753d6               38 Release
+SHA256:
+ 3c3f32119e5673a8cba945a58decd78909041248cffcde099f4fcd1209a1eb81            22003 Packages
+ 6fd460180379e37f5635cd1b2439ebf5ffd27846302f2eea2e3b26c2a4285585             5274 Packages.gz
+ 91084004df68bc59c39926e6bcf63d5e723c028e43bb4aff1be647221e5ef3d9               38 Release
+SHA512:
+ 4e6bb6205210254ac3bf4225e8505de6dad3a3e03bb776a5bc5598153fc377503bca7e5bfee7775ea90f8c0d961d6d0b7e40bd84cfa4ac35dcb08272d67d0f7a            22003 Packages
+ e1c5e550a06ebc483769e05690a931f829c643ae1703b87a4d92ea4734e8d1f6baeae4fb56b212711f05e7cc6d2d5d6c62bd8b22119928e002c4f93541eedc81             5274 Packages.gz
+ 56167d17b80b2492319c78424b2276b1b04bbf39da942a7c88e63988febef1c27e8500252e1a903ea5a74b15fff538e43b95d6b02bf31dd618218de9b9deb538               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmcQ1SgjHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE19Fw/5ATuaz9Ne
+EpmaWBjnmiZQKg3AkA9zhXkBEtwJTFRGMxr+VJpRPemsrQGOmJ9TcbrFNsGUyzDb
+ig0wK+hEKDnQ5LEMGi2LQZGsRRY0SGiiS/Tom/0nvQp5LBq10AOtAKS3wdiJvAN+
+dw3Wz55kI0Vzui6QILvSChgAtxl0LmheTel4KEqmJrD5CAHER9Zp90WcZwue8lvd
+me3NxS39l3hCtkPPJ3co4AOXfX/2y8MbipMznPnLWiQtyeQj+WrP2yuDWjHYmHPz
+IkOMjRpnXCR24fjZAPg1eqHp/AeiSfzQFWMwBgOKTLWsAslClU6/Rkl7Etkv+xpl
+z5gqITmksz+mVzkZDvYUyB1ZDM+HJg9Myun5uh6YW0k1EsXsE+WA5LoSWA1f/1im
+WuOi/KlTxGgCtOvpH2F32JleBm1mdoVb0wh3PQwAQyYIRvOdP1ULKaQfbRF6a3iA
+Z6KoigSV4gv1Td0I8hmBzaox6uxUbg1ls3qAvDvmdfw7h+qns4vMqJFnAYQbnCB2
+z7ePjBAEdEJTxeYQXJ+Eol2mJwmKOVjXiLhCc+bZX4AxV4+pcba3XCggcd0OkihQ
+Q+1hQCVZlqLdoxRohOYNcI0GxqvRUATayorZtTkzI+VYxYoMZqN6C1dZGyiahj2q
+GKsehr320x6dKSi+dPVd1RlQa8qVWfj3vxg=
+=Hp6c
+-----END PGP SIGNATURE-----

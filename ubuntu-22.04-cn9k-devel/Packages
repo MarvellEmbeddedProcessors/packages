@@ -1,0 +1,51 @@
+Package: dpdk-23.11-cn9k
+Version: 24.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libarchive13 (>= 3.0.4), libbsd0 (>= 0.0), libc6 (>= 2.34), libelf1 (>= 0.131), libfdt1 (>= 1.6.1), libjansson4 (>= 2.3), libbsd-dev, libarchive-dev, libelf-dev, libjansson-dev, libacl1-dev, nettle-dev, liblzma-dev, libzstd-dev, liblz4-dev, libbz2-dev, libxml2-dev, libfdt-dev
+Filename: ./dpdk-23.11-cn9k_24.09.0_arm64.deb
+Size: 85658498
+MD5sum: e2b5058abeb28cf0a231c11972aa2ddf
+SHA1: 34cc3c36b642b9dd27c3851f593be864f036f03e
+SHA256: 37014bc3652283f477e30a1fc3eb418e56335e5c214c5e344b062cbf4f9b83a7
+Homepage: https://www.dpdk.org/
+Description: DPDK Library for Marvell Octeon 9
+
+Package: nginx-1.22.0-cn9k-devel
+Version: 25.01.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), openssl-1.1.1q-cn9k-devel (= 25.01.0)
+Filename: ./nginx-1.22.0-cn9k-devel_25.01.0_arm64.deb
+Size: 1550326
+MD5sum: 08abffe6390b29d84c8ddc85f01e49da
+SHA1: 53759022d12c1875bd311e520abbc7aaed1ac795
+SHA256: dbd01be55d18140ddc4e719be2c2cde430c6466e7742cb75040312f19225d986
+Homepage: https://nginx.org/
+Description: Asynchronous NGINX for Marvell Octeon 9
+
+Package: openssl-1.1.1q-cn9k-devel
+Version: 25.01.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Provides: libssl.so.1.1, libcrypto.so.1.1
+Filename: ./openssl-1.1.1q-cn9k-devel_25.01.0_arm64.deb
+Size: 3330672
+MD5sum: 3623cc777a1cd37a5b862053faf946cd
+SHA1: 9fdac7c4fd5734e24d5bd43c29770e599d16ef34
+SHA256: 8bae6d292791ecca3ab05372967897beeb22b13bc694f08e884d35d2807b0d68
+Homepage: https://www.openssl.org/
+Description: OpenSSL with Asynchronous support for Marvell Octeon 9
+
+Package: openssl-engine-1.0.0-cn9k-devel
+Version: 25.01.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Depends: cpt-firmware-cn9k (= 24.09.0), dpdk-23.11-cn9k (= 24.09.0), openssl-1.1.1q-cn9k-devel (= 25.01.0)
+Filename: ./openssl-engine-1.0.0-cn9k-devel_25.01.0_arm64.deb
+Size: 65644
+MD5sum: d1d438f988975ae9901f3f25748daee6
+SHA1: 9c3e2bf36a822159ae397f9fd793eb4637ae0761
+SHA256: 16974085193867889d903f9b099b7cc79f58b678df6bb70c9347a337953f6e9e
+Description: DPDK based OpenSSL Engine for Marvell Octeon 9
+
