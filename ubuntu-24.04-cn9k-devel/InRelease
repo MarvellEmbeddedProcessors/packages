@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Wed, 16 Apr 2025 18:24:52 +0000
+MD5Sum:
+ c49e5ab9fb058587b8ec476d61304b9f             6196 Packages
+ 1302de8afa6279510e41aa49d678ffdc             1866 Packages.gz
+ 84e8d359f87eb1f26ea894a480285c7d               38 Release
+SHA1:
+ 07d325c42661571dc247745485db2a7e7bdf34eb             6196 Packages
+ e12a55dea3fa8025bcbf7aa6badf0b2d97ce33c4             1866 Packages.gz
+ 006bfcf153b505f0394ca39f1f0037138e9b4d29               38 Release
+SHA256:
+ 386baad4f8609e6ea8711411923ac2f5c040687f509c1f34ff5ad3855ef41938             6196 Packages
+ 18eb37babb11b52b470d5cadf7508b476be1a6f43776ce37d706a93bc5ef0a1d             1866 Packages.gz
+ 04e22db02a893ad459d2efe7165c2ceb51b64e90158eadffcb96e60e2fdc3f0b               38 Release
+SHA512:
+ ed4dca187bbc02ccb7664df1028aef711cab6d5af2d59c95ef3d63b9656fe8ac2a812325e22880b85bdc20c58b965fb53c7e7a14d716e7add3472437fb49195d             6196 Packages
+ 498bd834f1ac2d60465baa26aeb178fe82ac81e45610a6251a1e71fdcd6083e4c4290fcf91eba5800ada4ef3462c779b6f374302698bf673f0845c4139576b6b             1866 Packages.gz
+ ed175aa6e9d1bd0b3804eec2fce3fac098d4618b1de3d8fea2a7554103f4d0a2b28dba958d4c012456316dcb86eaadda1017ab8b77dcce187c5ac75e50050561               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmf/9fUjHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE1Ypw//QrR+xfDu
+V9G7LkMuAtfZN2TShPANXNjalVt0Jl8vkE3ALv632PNB6KUJOSLd9STSsWUwrB9m
+fBDZlQqrb3ucJJ2SMAtKVb/yAZR6NqCluGqO6melyFlzSt/owPzmKGGXS3LUU8Pz
+ImbLdrWMsf5Wtu91DPurot/nZmkmbYEMr+US7odJ1y2VzsW+jUZ2aXcKXkjuJ4mV
+u4mnvEWmx8AVgBawqg1IVJ2XKY3pn2mHBtoPLpaORVLxlZSXYealnkDvd3rA1ZDF
+Vkd2CqVglV0JnhqNO5qLyh867YTbxZnEvPAoyqOdq5pI94aqAhyqTfatSjsxY0w4
+LJS81EXQfdjU/XjJaW7j9YL+iabcUjlMgojgDkIdV0fOU4WstNO/Z/5hrNvJU0KO
+D+d7La+BgSRpX3qjgWffZ2obNeniKi6YSp7ePXYVle1J0ob6fd3i4eknXTMQrBZU
+YCU390dDKo25LLEEjK78/AqXELzO+yumGvsOT7DmjEgpWInUq1K2fB0Jff4rb9eN
+E/De15CPcLIETTLpwxFpWt/spNnzaeFkUcQN4axFZcZwQs+Y9qnutiq9McLAKOnt
+RYA/5aX2mSIm9nkeYU4zGFy+Ih8kReGaIlvKnjW6Oo7nwyKv0EvXjQcc5i3FXRHb
+6/FkO0TwsNSRTIJn9ol9auZ8nj2B8WlhdsM=
+=nr1G
+-----END PGP SIGNATURE-----
