@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Fri, 14 Mar 2025 05:18:21 +0000
+MD5Sum:
+ 957b9bd72fb83b3d18ca88e9497ae1a4             3913 Packages
+ d70d2aef6075759cecff6e85260c46c1             1409 Packages.gz
+ 33095fb358a5954c84a6dfd477fe4a80               38 Release
+SHA1:
+ e672b020b93daa58ca57dd727d7d0027ee242cfe             3913 Packages
+ 0663e8d8bd21d8a722edd9fdcddfdba0f469270e             1409 Packages.gz
+ ef0bc2398e5e0d39d1bcdd90dae7c06988b09ad1               38 Release
+SHA256:
+ 52f2ffbab61849c264649c6ab68b44ea1095663bbfe98ce1ce06135b2c9c1054             3913 Packages
+ 86100ec2fc9ec4ff154549548e47056cd29df4fd8a73e1e726b579e5ab755297             1409 Packages.gz
+ 01e4132ccd4e558c40bc2a9dae4fabfa4411692738820862a809fbab1c256eae               38 Release
+SHA512:
+ 9791e3103d5e8494dbd7af3e96c7aea37a7a288b3e88ab84707dfd29caf9472a4c6a62323a00b712cbeee301d9b67488a49aa1b7c39bf9ca7b00a8548e94b2bd             3913 Packages
+ 2b85bda061260545768a5f38b50aa60af6a9872aa8e56c02e2f7eb14b6ac2f257e96ffbb70ec3b79a0ba3fecc1dc7a57bfc6b114cdc34ad759bc5ad734a96ee1             1409 Packages.gz
+ 5ce2e5c7f43305b8cc68457cd475cfaddcda0feb6dbb98a47cab87970016f85d9b3c3e0901c7da1a271e803f3b2c67ac91443e4dfbecf7cf3dc37d932021287a               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJXBAEBCgBBFiEE//+5+5xDoXYufjZKU0mv0kQ6hE0FAmfTvB4jHGdpdGh1Yi1i
+b3QtYWNjZWxlcmF0b3JAbWFydmVsbC5jb20ACgkQU0mv0kQ6hE3iqg/9HgJIErHN
+bM9FxMvpB7GqGeQZHsv0xDjAVQz5PSyw6hmdYB0Tyn51aHKHth3SOBkBSXqUJuqi
+6+9RcQC83ZNBuRzok+DpQZSoRXGMaW1d/uX29uazEenkgvIHxCGk44fgoWUNxt86
+qKv+a8tVBgc1JKqvpsVV+6H/KA06H3Gkzr4Y5y9L3MtO1VjJh5LK/yKoUHZoL1Bd
+mhZ5KYJMI5NM1FM8uK7N18XO/905HhoUW3oEkLzD+ErUFbkAUujmfZ0cmYFW1Bnt
+mWc9qMT2T9okgeGEvo6vtZ9vYZW1Qy02L6D/0dZKMcNTYS2b1zZ7pU7cU0TXCuVB
+AB8cdNvX0nkfRHcT+MQhncvswFtCe7EIfm6BrOjDYetM5ivaxe/BY/1yJmjFaayP
+IaZut3xQ2oJU8hzaS6QpQo/XhsSZ97lKvEs7u7DDo8DFoT/RfHnEkFDKcMRD2My2
+RKPb7qgnaImrINYL4Qd+rZnyJ0xc6+CcCV0Os8My8VqZ2mlQ7HzRB2xaNRRDlPlJ
+htdFfdSlj18VER6xbVW0hQenibsKEJLb4xAiCIa2ln+eCE1abDoLeFyuixOoN33h
+y/fxea904VnesbGXkL+3BFue5YYGmUT1xpTtdWqC/3/ZKXnrkaNps/sHP0aq72FI
+4dpFN/NqWH8vbM8ZgydVutfZPoKQUxapSLE=
+=CbAT
+-----END PGP SIGNATURE-----

@@ -1,0 +1,11 @@
+Package: cpt-firmware-cn9k
+Version: 24.09.0
+Architecture: arm64
+Maintainer: Jerin Jacob (jerinj@marvell.com)
+Filename: ./cpt-firmware-cn9k_24.09.0_arm64.deb
+Size: 48372
+MD5sum: 842687a11ec4745d796562f2ab94cca1
+SHA1: 287e4ff22c16e59039a59c6b7f600a32b1bf08e8
+SHA256: 1082448f66c95546d4beea2114af4651072eebcc11ce9db21181e35753b3d09f
+Description: Cryptographic Accelerator Firmware for Marvell Octeon 9
+
