@@ -111,6 +111,13 @@ jobs:
           repository: "MarvellEmbeddedProcessors/dao"
           tag: "${{ steps.version.outputs.TAG }}"
           fileName: "*.deb"
+      - name: Download ML Models package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'ml-models' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
       - name: Commit packages
         env:
           EMAIL: github-bot-accelerator@marvell.com
