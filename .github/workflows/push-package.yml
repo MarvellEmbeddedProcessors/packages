@@ -128,19 +128,51 @@ jobs:
           DISTRO=${{ steps.version.outputs.DISTRO }}
           [[ "${{ steps.version.outputs.DEVEL }}" == "false" ]] && DEVEL= || DEVEL=-devel
           [[ "${{ steps.version.outputs.DEVEL }}" == "false" ]] && RELEASE_TYPE=release || RELEASE_TYPE=devel
-          FOLDER=${PWD}/${DISTRO}-${{ steps.version.outputs.PLATFORM }}${DEVEL}
-          mkdir -p ${FOLDER}
-          mv -f *.deb ${FOLDER}/.
-          cd ${FOLDER}
-          gpg --armor --export "${EMAIL}" > dao.gpg
-          dpkg-scanpackages --multiversion . > Packages
-          gzip -k -f Packages
-          apt-ftparchive release . > Release
-          gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
-          gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
-          DISTRO_PATH=`echo ${DISTRO} | awk -F'-' '{print$1"/v"$2}' | awk -F'.' '{print$1$2}'`
-          echo "deb [signed-by=/etc/apt/keyrings/dao.gpg]  https://www.marvell.com/public/repo/octeon/dao/${{ steps.version.outputs.PLATFORM }}/${DISTRO_PATH}/${RELEASE_TYPE} ./" > dao.list
-          cd -
+          PACKAGE="${{ steps.version.outputs.PACKAGE }}"
+          if [[ "${PACKAGE}" == "cpt-firmware" ]]; then
+              echo "Place CPT in both stable and devel"
+              STABLE_FOLDER=${PWD}/${DISTRO}-${{ steps.version.outputs.PLATFORM }}
+              DEVEL_FOLDER=${PWD}/${DISTRO}-${{ steps.version.outputs.PLATFORM }}-devel
+              mkdir -p "${STABLE_FOLDER}" "${DEVEL_FOLDER}"
+              cp -f *.deb ${STABLE_FOLDER}/.
+              cp -f *.deb ${DEVEL_FOLDER}/.
+              #Sign stable
+              cd ${STABLE_FOLDER}
+              gpg --armor --export "${EMAIL}" > dao.gpg
+              dpkg-scanpackages --multiversion . > Packages
+              gzip -k -f Packages
+              apt-ftparchive release . > Release
+              gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+              gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+              DISTRO_PATH=`echo ${DISTRO} | awk -F'-' '{print$1"/v"$2}' | awk -F'.' '{print$1$2}'`
+              echo "deb [signed-by=/etc/apt/keyrings/dao.gpg]  https://www.marvell.com/public/repo/octeon/dao/${{ steps.version.outputs.PLATFORM }}/${DISTRO_PATH}/${RELEASE_TYPE} ./" > dao.list
+              cd -
+              #Sign devel
+              cd ${DEVEL_FOLDER}
+              gpg --armor --export "${EMAIL}" > dao.gpg
+              dpkg-scanpackages --multiversion . > Packages
+              gzip -k -f Packages
+              apt-ftparchive release . > Release
+              gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+              gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+              DISTRO_PATH=`echo ${DISTRO} | awk -F'-' '{print$1"/v"$2}' | awk -F'.' '{print$1$2}'`
+              echo "deb [signed-by=/etc/apt/keyrings/dao.gpg]  https://www.marvell.com/public/repo/octeon/dao/${{ steps.version.outputs.PLATFORM }}/${DISTRO_PATH}/devel ./" > dao.list
+              cd -
+          else
+              FOLDER=${PWD}/${DISTRO}-${{ steps.version.outputs.PLATFORM }}${DEVEL}
+              mkdir -p ${FOLDER}
+              mv -f *.deb ${FOLDER}/.
+              cd ${FOLDER}
+              gpg --armor --export "${EMAIL}" > dao.gpg
+              dpkg-scanpackages --multiversion . > Packages
+              gzip -k -f Packages
+              apt-ftparchive release . > Release
+              gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+              gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+              DISTRO_PATH=`echo ${DISTRO} | awk -F'-' '{print$1"/v"$2}' | awk -F'.' '{print$1$2}'`
+              echo "deb [signed-by=/etc/apt/keyrings/dao.gpg]  https://www.marvell.com/public/repo/octeon/dao/${{ steps.version.outputs.PLATFORM }}/${DISTRO_PATH}/${RELEASE_TYPE} ./" > dao.list
+              cd -
+          fi
           git add .
           git log -1 --pretty=%B > msg
           sed -i "/^Signed-off-by:/d" msg
