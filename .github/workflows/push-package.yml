@@ -135,7 +135,7 @@ jobs:
               DEVEL_FOLDER=${PWD}/${DISTRO}-${{ steps.version.outputs.PLATFORM }}-devel
               mkdir -p "${STABLE_FOLDER}" "${DEVEL_FOLDER}"
               cp -f *.deb ${STABLE_FOLDER}/.
-              cp -f *.deb ${DEVEL_FOLDER}/.
+              mv -f *.deb ${DEVEL_FOLDER}/.
               #Sign stable
               cd ${STABLE_FOLDER}
               gpg --armor --export "${EMAIL}" > dao.gpg
