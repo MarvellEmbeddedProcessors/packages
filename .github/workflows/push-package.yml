@@ -118,6 +118,13 @@ jobs:
           repository: "MarvellEmbeddedProcessors/dao"
           tag: "${{ steps.version.outputs.TAG }}"
           fileName: "*.deb"
+      - name: Download Snort package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'snort' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
       - name: Commit packages
         env:
           EMAIL: github-bot-accelerator@marvell.com
