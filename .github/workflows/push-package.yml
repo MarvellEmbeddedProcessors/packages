@@ -62,6 +62,13 @@ jobs:
           repository: "MarvellEmbeddedProcessors/dao"
           tag: "${{ steps.version.outputs.TAG }}"
           fileName: "*.deb"
+      - name: Download OVS debug package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'ovs-debug' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
       - name: Download VPP package
         uses: robinraju/release-downloader@v1.10
         if: ${{ steps.version.outputs.PACKAGE == 'vpp' }}
@@ -76,9 +83,23 @@ jobs:
           repository: "MarvellEmbeddedProcessors/dao"
           tag: "${{ steps.version.outputs.TAG }}"
           fileName: "*.deb"
+      - name: Download NGINX debug package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'nginx-dbg' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
       - name: Download OPENSSL package
         uses: robinraju/release-downloader@v1.10
         if: ${{ steps.version.outputs.PACKAGE == 'openssl' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OPENSSL debug package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'openssl-dbg' }}
         with:
           repository: "MarvellEmbeddedProcessors/dao"
           tag: "${{ steps.version.outputs.TAG }}"
@@ -107,6 +128,13 @@ jobs:
       - name: Download OPENSSL ENGINE package
         uses: robinraju/release-downloader@v1.10
         if: ${{ steps.version.outputs.PACKAGE == 'engine' }}
+        with:
+          repository: "MarvellEmbeddedProcessors/dao"
+          tag: "${{ steps.version.outputs.TAG }}"
+          fileName: "*.deb"
+      - name: Download OPENSSL ENGINE debug package
+        uses: robinraju/release-downloader@v1.10
+        if: ${{ steps.version.outputs.PACKAGE == 'engine-dbg' }}
         with:
           repository: "MarvellEmbeddedProcessors/dao"
           tag: "${{ steps.version.outputs.TAG }}"
