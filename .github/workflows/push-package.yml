@@ -19,6 +19,10 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
           lfs: true
+          include: |
+            "${{ steps.version.outputs.DISTRO }}-${{ steps.version.outputs.PLATFORM }}/**"
+            "${{ steps.version.outputs.DISTRO }}-${{ steps.version.outputs.PLATFORM }}-devel/**"
+          exclude: ""
       - name: Set Package version
         id: version
         run: |
