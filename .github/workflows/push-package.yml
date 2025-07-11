@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   deploy-debian-packages:
+    timeout-minutes: 5
     runs-on: ubuntu-latest
 
     steps:
@@ -25,6 +26,12 @@ jobs:
           echo 'PLATFORM=${{ github.event.client_payload.platform }}' >> $GITHUB_OUTPUT
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Turnstyle
+        uses: softprops/turnstyle@v1
+        with:
+          poll-interval-seconds: 20
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Create Git LFS file list
         run: git lfs ls-files -l |cut -d' ' -f1 |sort >.git/lfs-hashes.txt
       - name: Restore Git LFS object cache
