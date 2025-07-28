@@ -224,5 +224,5 @@ jobs:
           sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}' msg
           echo "`date "+%F %H:%M"` : "'${{ steps.version.outputs.PACKAGE }} : ${{ steps.version.outputs.TAG }} : ${{ steps.version.output.PLATFORM }} : ${{ steps.version.output.DEVEL }}' >> msg
           cat msg
-          git commit --amend -s --message "$(cat msg)"
+          git commit --amend -s -F msg
           git push -f
