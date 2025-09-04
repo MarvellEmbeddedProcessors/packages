@@ -118,7 +118,7 @@ jobs:
         uses: robinraju/release-downloader@v1.10
         if: ${{ steps.version.outputs.PACKAGE == 'octeon-ep' }}
         with:
-          repository: "MarvellEmbeddedProcessors/pcie_ep_octeon_target"
+          repository: "MarvellEmbeddedProcessors/dao"
           tag: "${{ steps.version.outputs.TAG }}"
           fileName: "*.deb"
       - name: Download OCTEON CPT firmware package
@@ -174,8 +174,8 @@ jobs:
           [[ "${{ steps.version.outputs.DEVEL }}" == "false" ]] && DEVEL= || DEVEL=-devel
           [[ "${{ steps.version.outputs.DEVEL }}" == "false" ]] && RELEASE_TYPE=release || RELEASE_TYPE=devel
           PACKAGE="${{ steps.version.outputs.PACKAGE }}"
-          if [[ "${PACKAGE}" == "cpt-firmware" || "${PACKAGE}" == "octeon-ep" || "${PACKAGE}" == "ml-firmware" ]]; then
-              echo "Place Marvell firmware and Octeon-EP packages in stable and devel"
+          if [[ "${PACKAGE}" == "cpt-firmware" || "${PACKAGE}" == "ml-firmware" ]]; then
+              echo "Place Marvell firmware packages in stable and devel"
               STABLE_FOLDER=${PWD}/${DISTRO}-${{ steps.version.outputs.PLATFORM }}
               DEVEL_FOLDER=${PWD}/${DISTRO}-${{ steps.version.outputs.PLATFORM }}-devel
               mkdir -p "${STABLE_FOLDER}" "${DEVEL_FOLDER}"
